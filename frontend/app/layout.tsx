@@ -31,7 +31,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
       <Header />
-      <main className={`p-6 flex flex-col w-full`} style={{ height: `calc(100vh - ${configSize.headerSize} - ${configSize.footerSize})` }}>
+      <main className={`p-6 flex flex-col w-full`} style={{ height: `calc(100vh - ${configSize.headerSize}px - ${configSize.footerSize}px)` }}>
           {children}
       </main>
       <Footer />

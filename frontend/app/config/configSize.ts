@@ -4,6 +4,6 @@ interface IConfigSize {
 }
 
 export const configSize: IConfigSize = {
-    headerSize: "60px",
-    footerSize: "60px",
+    headerSize: "60",
+    footerSize: "60",
 }
